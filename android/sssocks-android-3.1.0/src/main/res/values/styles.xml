@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Toolbar.Logo" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Theme.Material" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/material_accent_700</item>
+        <item name="colorAccent">@color/material_accent_500</item>
+        <item name="colorButtonNormal">@color/material_accent_500</item>
+        <item name="colorPrimary">@color/material_accent_500</item>
+        <item name="colorPrimaryDark">@color/material_accent_700</item>
+    </style>
+
+    <style name="Theme.Material.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/material_accent_500</item>
+        <item name="colorPrimary">@color/material_accent_500</item>
+        <item name="colorPrimaryDark">@color/material_accent_700</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
